@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing your age by your name</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container input-container">
+        <form action="#">
+          <h1>Guessing your age by your name</h1>
+          <input placeholder="Your name" id="userInput"/>
+          <span>We predicts the age of a person given their name.</span>
+          <button onclick="main()">Enter</button>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-right">
+            <h1 id="textInfo">You are probably ...</h1>
+            <h1 id="textAge">11</h1>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>    
+</html>
