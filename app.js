@@ -5,7 +5,7 @@ const inputBox = document.getElementById("userInput")
 textLabel.textContent = ""
 
 function main() {
-    textInfo.textContent = "You are probably...";
+    textInfo.textContent = "You are probably ...";
     let name = inputBox.value; 
     fetch('https://api.agify.io?name='+name)
     .then(response => response.json())
