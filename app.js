@@ -2,7 +2,7 @@ const textAge = document.getElementById("textAge");
 const textInfo = document.getElementById("textInfo");
 const inputBox = document.getElementById("userInput")
 
-textLabel.textContent = ""
+textAge.textContent = ""
 
 function main() {
     textInfo.textContent = "You are probably ...";
